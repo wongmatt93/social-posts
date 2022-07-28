@@ -1,0 +1,40 @@
+.SocialPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SocialPosts h1 {
+  color: #03a9f4;
+  font-family: "Homemade Apple", cursive;
+}
+
+.SocialPosts .new-thought {
+  background-color: #03a9f4;
+  width: 60%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.SocialPosts ul {
+  list-style: none;
+  padding: 10px 0;
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 300px;
+  overflow: scroll;
+}
+
+.SocialPosts li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.SocialPosts li h2 {
+  font-size: 24px;
+}
